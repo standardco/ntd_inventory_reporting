@@ -170,4 +170,4 @@ Donated Drug Reporting Templates to Support Neglected Tropical Disease (NTD) Pro
 * [Web annex A: Indicator table](https://docs.google.com/spreadsheets/d/1_NCdu7_UhALA5o2GEe1pdlWO8TMZLDX8/edit?usp=drive_link&ouid=104620825587987098442&rtpof=true&sd=true)  
 * [Web annex B: Functional and non-functional requirements](https://docs.google.com/spreadsheets/d/1yPYo4qOwWxHHD6ckmXrLE4VMVU0kWGPy/edit?usp=drive_link&ouid=104620825587987098442&rtpof=true&sd=true)  
 * [Web annex C: XSLForm used in pilot project in Kenya (note: admin units need to be updated if this is applied to other country context)](https://docs.google.com/spreadsheets/d/18xcrK_wMwJJSstOeqL9HhDiwwCOjuPxY/edit?usp=drive_link&ouid=104620825587987098442&rtpof=true&sd=true)
-* [Web annex D: CHAI reference XLSForms repository] (https://github.com/standardco/ntd_inventory_reporting/tree/main/CHAI_XLSForms)
+* [Web annex D: CHAI reference XLSForms repository](https://github.com/standardco/ntd_inventory_reporting/tree/main/CHAI_XLSForms)
