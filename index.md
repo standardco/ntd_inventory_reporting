@@ -125,17 +125,17 @@ Donated Drug Reporting Templates to Support Neglected Tropical Disease (NTD) Pro
 
 ## **8\. Decision Support Artifacts**
 
-* These data are collected to determine quantities of drugs by Adamin 2 (in Kenya this is the sub-county)*
-* The survey collects data on five donated medicines (DEC, ALB, PZQ, MEB, and IVM). For each, medicine the surveys asks for the following:*
-  * On hand prior to the MDA (_prior_mda)*
-  * Received for this MDA (_received)*
-  * Remaining after the MDA and still in sealed bottles (_remaining_sealed)*
-  * Remaining after the MDA, but in open bottles (_remaining_open)*
-  * Batch number on the medicine bottle(s) (multiple_batches_)*
+* These data are collected to determine quantities of drugs by Adamin 2 (in Kenya this is the sub-county)
+* The survey collects data on five donated medicines (DEC, ALB, PZQ, MEB, and IVM). For each, medicine the surveys asks for the following:
+  * On hand prior to the MDA (_prior_mda)
+  * Received for this MDA (_received)
+  * Remaining after the MDA and still in sealed bottles (_remaining_sealed)
+  * Remaining after the MDA, but in open bottles (_remaining_open)
+  * Batch number on the medicine bottle(s) (multiple_batches_)
       
 *Business rules:*
-  * On hand prior to the MDA (_prior_mda) + Received for this MDA (_received) = total available medicines (per Admin 2 and drug)*
-  * Remaining after the MDA and still in sealed bottles (_remaining_sealed) + Remaining after the MDA, but in open bottles (_remaining_open) = total remaining drug following the MDA (per Admin 2 and drug)*
+  * On hand prior to the MDA (_prior_mda) + Received for this MDA (_received) = total available medicines (per Admin 2 and drug)
+  * Remaining after the MDA and still in sealed bottles (_remaining_sealed) + Remaining after the MDA, but in open bottles (_remaining_open) = total remaining drug following the MDA (per Admin 2 and drug)
 
 
 *Decisions from these data include:*
