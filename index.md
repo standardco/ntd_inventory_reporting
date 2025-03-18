@@ -65,7 +65,8 @@ Donated Drug Reporting Templates to Support Neglected Tropical Disease (NTD) Pro
 **Reference: Data dictionary for supply reporting used in Kenya**
 ![Data Dictionary](KenyaDD.png)
 [Web annex A1: Data dictionary csv](Data_Dictionary.csv)
-[Web annex A2: Data dictionary JSON](Data_Dictionary.json)
+
+[Web annex A2: Data dictionary JSON](data_dictionary.json)
 
 ### **Workflows & Business Processes**
 
