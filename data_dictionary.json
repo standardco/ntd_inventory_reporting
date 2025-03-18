@@ -1,0 +1,240 @@
+[
+    {
+        "Variable Name": "first_note",
+        "Description": "The Ministry of Health invites you to participate in this brief stock data collection exercise. Please provide informaton for each medicine in your inventory (PZQ, DEC, MEB, ALB, and IVM). Thank you.",
+        "Data Type": "note",
+        "Required": "No",
+        "Categories": null
+    },
+    {
+        "Variable Name": "second_note",
+        "Description": "It should take you less than 5 minutes to complete this brief stock status survey.",
+        "Data Type": "note",
+        "Required": "No",
+        "Categories": null
+    },
+    {
+        "Variable Name": "country",
+        "Description": "Select the name of your Country",
+        "Data Type": "select_one countries",
+        "Required": "Yes",
+        "Categories": NaN
+    },
+    {
+        "Variable Name": "inventory_date",
+        "Description": "Date of Inventory",
+        "Data Type": "date",
+        "Required": "No",
+        "Categories": null
+    },
+    {
+        "Variable Name": "admin1",
+        "Description": "County",
+        "Data Type": "select_one admin1",
+        "Required": "No",
+        "Categories": "List admin 1 names or IDs"
+    },
+    {
+        "Variable Name": "admin2",
+        "Description": "Sub-County",
+        "Data Type": "select_one admin2",
+        "Required": "No",
+        "Categories": "List admin 2 names or IDs"
+    },
+    {
+        "Variable Name": "third_note",
+        "Description": "What is the current Stock on Hand of PZQ, MEB, ALB, IVM, and DEC in your district / subcounty? Provide a breakdown of \u201csealed\u201d and \u201copen\u201d containers\u201d. We shall assume any open container is half full i.e. contains 500 tablets on average.",
+        "Data Type": "note",
+        "Required": "No",
+        "Categories": null
+    },
+    {
+        "Variable Name": "pzq_num_sealed_prior_mda",
+        "Description": "Number of full sealed PZQ containers from prior MDA (put 0 if non received)?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "pzq_num_sealed_just_received",
+        "Description": "Number of full sealed PZQ containers received in last 30 days (put 0 if non received)?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "pzq_num_sealed_just_remaining_sealed",
+        "Description": "Number of full sealed PZQ containers remaining after MDA?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "pzq_num_sealed_just_remaining_open",
+        "Description": "Number of open PZQ containers remaining after MDA?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "meb_num_sealed_prior_mda",
+        "Description": "Number of full sealed MEB containers from prior MDA (put 0 if non received)?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "meb_num_sealed_just_received",
+        "Description": "Number of full sealed MEB containers received in last 30 days (put 0 if non received)?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "meb_num_sealed_just_remaining_sealed",
+        "Description": "Number of full sealed MEB containers remaining after MDA?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "meb_num_sealed_just_remaining_open",
+        "Description": "Number of open MEB containers remaining after MDA?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "ivm_num_sealed_prior_mda",
+        "Description": "Number of full sealed IVM containers from prior MDA (put 0 if non received)?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "ivm_num_sealed_just_received",
+        "Description": "Number of full sealed IVM containers received in last 30 days (put 0 if non received)?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "ivm_num_sealed_just_remaining_sealed",
+        "Description": "Number of full sealed IVM containers remaining after MDA?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "ivm_num_sealed_just_remaining_open",
+        "Description": "Number of open IVM containers remaining after MDA?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "alb_num_sealed_prior_mda",
+        "Description": "Number of full sealed ALB containers from prior MDA (put 0 if non received)?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "alb_num_sealed_just_received",
+        "Description": "Number of full sealed ALB containers received in last 30 days (put 0 if non received)?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "alb_num_sealed_just_remaining_sealed",
+        "Description": "Number of full sealed ALB containers remaining after MDA?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "alb_num_sealed_just_remaining_open",
+        "Description": "Number of open ALB containers remaining after MDA?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "dec_num_sealed_prior_mda",
+        "Description": "Number of full sealed DEC containers from prior MDA (put 0 if non received)?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "dec_num_sealed_just_received",
+        "Description": "Number of full sealed DEC containers received in last 30 days (put 0 if non received)?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "dec_num_sealed_just_remaining_sealed",
+        "Description": "Number of full sealed DEC containers remaining after MDA?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "dec_num_sealed_just_remaining_open",
+        "Description": "Number of open DEC containers remaining after MDA?",
+        "Data Type": "integer",
+        "Required": "Yes",
+        "Categories": null
+    },
+    {
+        "Variable Name": "multiple_batches_dec",
+        "Description": "List the DEC batch numbers here separate by comma",
+        "Data Type": "text",
+        "Required": "No",
+        "Categories": null
+    },
+    {
+        "Variable Name": "multiple_batches_alb",
+        "Description": "List the ALB batch numbers here separate by comma",
+        "Data Type": "text",
+        "Required": "No",
+        "Categories": null
+    },
+    {
+        "Variable Name": "multiple_batches_pzq",
+        "Description": "List the PZQ batch numbers here separate by comma",
+        "Data Type": "text",
+        "Required": "No",
+        "Categories": null
+    },
+    {
+        "Variable Name": "multiple_batches_meb",
+        "Description": "List the MEB batch numbers here separate by comma",
+        "Data Type": "text",
+        "Required": "No",
+        "Categories": null
+    },
+    {
+        "Variable Name": "multiple_batches_ivm",
+        "Description": "List the IVM batch numbers here separate by comma",
+        "Data Type": "text",
+        "Required": "No",
+        "Categories": null
+    },
+    {
+        "Variable Name": "additional_feedback",
+        "Description": "If you have any additional feedback of questions, please enter it here",
+        "Data Type": "text",
+        "Required": "No",
+        "Categories": null
+    },
+    {
+        "Variable Name": "exit_note",
+        "Description": "If you\u2019re having any difficulties with this survey or if you have any questions, please feel free to email info@ntdeliver.com",
+        "Data Type": "note",
+        "Required": "No",
+        "Categories": null
+    }
+]
