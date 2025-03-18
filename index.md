@@ -65,6 +65,7 @@ Donated Drug Reporting Templates to Support Neglected Tropical Disease (NTD) Pro
 **Reference: Data dictionary for supply reporting used in Kenya**
 ![Data Dictionary](KenyaDD.png)
 [Web annex A1: Data dictionary csv](Data_Dictionary.csv)
+[Web annex A2: Data dictionary JSON](Data_Dictionary.json)
 
 ### **Workflows & Business Processes**
 
@@ -168,6 +169,7 @@ Donated Drug Reporting Templates to Support Neglected Tropical Disease (NTD) Pro
 # **Web annexes**
 
 * [Web annex A1: CSV data dictionary](Data_Dictionary.csv)
+* [Web annex A2: Data dictionary JSON](Data_Dictionary.json)
 * [Web annex B: Functional and non-functional requirements](https://docs.google.com/spreadsheets/d/1yPYo4qOwWxHHD6ckmXrLE4VMVU0kWGPy/edit?usp=drive_link&ouid=104620825587987098442&rtpof=true&sd=true)  
 * [Web annex C: XSLForm used in pilot project in Kenya (note: admin units need to be updated if this is applied to other country context)](https://docs.google.com/spreadsheets/d/18xcrK_wMwJJSstOeqL9HhDiwwCOjuPxY/edit?usp=drive_link&ouid=104620825587987098442&rtpof=true&sd=true)
 * [Web annex D: CHAI reference XLSForms repository](https://github.com/standardco/ntd_inventory_reporting/tree/main/CHAI_XLSForms)
