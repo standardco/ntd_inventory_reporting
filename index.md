@@ -34,6 +34,7 @@ Donated Drug Reporting Templates to Support Neglected Tropical Disease (NTD) Pro
 *(National and Subnational Levels)*  
 
 **Source:** World Health Organization (2025). *Routine health information system and health facility and community data for neglected tropical diseases: last-mile logistics information system for medicines and health products.* Geneva: WHO. [ISBN: 978-92-4-011158-5]
+\[[link](https://iris.who.int/server/api/core/bitstreams/d28d5d40-f14f-4e8e-8043-c679f9a19be2/content)\]
 
 | No. | Indicator | Levels | Definition | Formula / Calculation | Disaggregation | Data Elements |
 |:--:|:--|:--|:--|:--|:--|:--|
