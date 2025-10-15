@@ -30,6 +30,24 @@ Donated Drug Reporting Templates to Support Neglected Tropical Disease (NTD) Pro
 
 *The mechanism for reporting medicines is through the Joint Application Package (JAP) \[[link](https://www.who.int/teams/control-of-neglected-tropical-diseases/interventions/strategies/preventive-chemotherapy/joint-application-package)\]. This package is a collection of forms and includes forms for reporting on medicines delivered through the Joint Reporting Form (JRF), and medicines needed for future treatments through the Joint Request for Select Medicines (JRSM). These forms are submitted to WHO by national NTD Program Managers annually. Forms are reviewed and submitted to pharmaceutical partners who produce the medicines and ship the medicines to countries for distribution to endemic communities.*
 
+## Logistics Indicators for NTD Medicines and Health Products – Last Mile  
+*(National and Subnational Levels)*  
+
+**Source:** World Health Organization (2025). *Routine health information system and health facility and community data for neglected tropical diseases: last-mile logistics information system for medicines and health products.* Geneva: WHO. [ISBN: 978-92-4-011158-5]
+
+| No. | Indicator | Levels | Definition | Formula / Calculation | Disaggregation | Data Elements |
+|:--:|:--|:--|:--|:--|:--|:--|
+| **1** | **Inventory reconciliation** | Community, Health Facility, Subnational, National | Compares theoretical balance with actual stock on hand. | `Physical count / Theoretical balance × 100` | By product name, type, NTD, and administrative unit | 8, 1, 2, 5, 6 |
+| **1b** | **Theoretical balance** | Health Facility | Calculated stock level based on opening balance and number of people treated. | `Opening balance + Qty received – (No. treated × Avg dosage) – Reported expiry/loss – Peer transfer` | By product name, type, NTD, and administrative unit | 1, 2, 5, 6  *(Source: HMIS or MDA registers)* |
+| **2** | **Stock-out rate** | Health Facility, Subnational, National | Percentage of time in a reporting period that an item is out of stock. | `(Days stocked out / Days in reporting period) × 100` | By product name, type, NTD, and administrative unit | 9 |
+| **3** | **Forecast accuracy** | Health Facility, Subnational, National | Measures how closely forecasts match actual consumption. | `(1 – (|Forecasted – Actual| / Actual)) × 100` | By product name, type, disease, and administrative unit | 4 |
+| **4** | **Order fill rate** | Health Facility, Subnational, National | Compares quantity received with quantity requested. | `(Quantity requested / Quantity received) × 100` | By product name, type, disease, and administrative unit | 2 |
+| **5** | **% Expired and/or discarded medical products** | Health Facility, Subnational, National | Proportion of wasted or expired medical products compared to total stock. | `(Expired or discarded qty / Total stock) × 100` | By product name, type, NTD, and administrative unit | 8, 5 |
+| **6** | **% Lost, damaged, or unaccounted medical products** | Health Facility, Subnational, National | Proportion of lost or damaged medical products compared to total stock. | `(Lost or damaged qty / Total stock) × 100` | By product name, type, NTD, and administrative unit | 8, 6 |
+| **7** | **Stocked according to plan (non-PC supplies)** | Health Facility, Subnational, National | Percentage of facilities maintaining stock within defined minimum/maximum levels (typically 1–3 months supply). | `Stock on hand / Average monthly consumption` | By product name and type | 8, 4 |
+| **7a** | **Average monthly consumption** | Health Facility | Average consumption for each product over the last 3 months. | `Quantity consumed in last 3 months / 3` | By product name, type, disease, and administrative unit | 4 |
+| **8** | **Stocked according to plan (PC supplies)** | Health Facility, Subnational, National | Percentage of facilities maintaining stock within 90–110 % of forecasted need (for PC products). | `Stock on hand / Forecast for MDA × 100` | By product name and type | 8, 11 |
+
 ## **6\. Digital Adaptation Kit (DAK) Components**
 
 ### **Functional & Non-functional Requirement**
